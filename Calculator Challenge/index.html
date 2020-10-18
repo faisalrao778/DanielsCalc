@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Calculator</title>
+
+  </head>
+  <body>
+    <h1>Calculator</h1>
+
+<div class="answer">
+
+<input type="text" value="0" name="textview" id="txtMain"  value style="border-radius:0;background-color:red;padding-left:280px;margin-top:50px;font-size:58px;">
+
+</div>
+
+<form class="numbers">
+
+  <div class="row1">
+
+
+    <input type="button" value="7" onclick="calcNumbers(7)">
+    <input type="button" value="8" onclick="calcNumbers(8)">
+    <input type="button" value="9" onclick="calcNumbers(9)">
+    <input type="button" value="+" onclick="calcNumbers(+)">
+  </div>
+  <div class="row2">
+    <input type="button" value="4" onClick="calcNumbers(4)">
+    <input type="button" value="5" onClick="calcNumbers(5)">
+    <input type="button" value="6" onClick="calcNumbers(6)">
+    <input type="button" value="-" onClick="calcNumbers(-)">
+  </div>
+  <div class="row3">
+    <input type="button" value="1" onClick="calcNumbers(1)">
+    <input type="button" value="2" onClick="calcNumbers(2)">
+    <input type="button" value="3" onClick="calcNumbers(3)">
+    <input type="button" value="*" onClick="calcNumbers(*)">
+  </div>
+  <div class="row4">
+    <input type="button" value="0" onClick="calcNumbers(0)">
+    <input type="button" value="." onClick="calcNumbers(.)">
+    <input type="button" value="/" onClick="calcNumbers(/)">
+    <input type="button" value="="style="background-color:red;color:#fff;"onClick="calcNumbers(a=.value)">
+  </div>
+
+  </form>
+  <script src="calculator.js" charset="utf-8"></script>
+  </body>
+</html>
